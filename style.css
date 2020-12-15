@@ -1,0 +1,116 @@
+body {
+	background-color: rgb(185, 202, 220);
+	font-family: Avenir Next Condensed, serif;
+	font-size: 16px;
+}
+h1 { 
+	color: rgb(59, 109, 157);
+	font-size: 50px;
+	font-family: Montserrat, serif;
+	margin: 0px;
+}
+ h2 {
+ 	font-family: Avenir Next, serif;
+ 	color: rgb(185, 202, 220);
+ 	font-size: 20px;
+ 	margin-bottom: unset;
+}	
+a { 
+ 	text-decoration: none;
+ 	color: rgb(59, 109, 157);
+ 	font-weight: bolder;
+}
+p {
+	margin: 0px 0px;
+}
+b {
+	color: rgb(185, 202, 220);
+	font-size: 16px;
+	font-family: Avenir Next, serif;
+}
+/* Custom design with class */
+.container {
+	text-align: center;"
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-wite {
+    width: 910px auto;
+  }
+  .title {
+	font-size: 41px;	 
+  }
+  .subtitle {
+  	font-size: 18px;
+  }
+  .container {
+  	font-size: 15px;
+  }
+}
+@media (max-width: 760px) {
+  /* For a screen < 760px, this CSS will be read */
+  .card-white {
+    width: 710px auto;
+  }
+  .title {
+	font-size: 32px;	 
+  }
+  .subtitle {
+  	font-size: 16px;
+  }
+  .container {
+  	font-size: 14px;
+  }
+}
+@media (max-width: 550px) {
+  /* For a screen < 550px, this CSS will be read */
+  .card-white {
+    width: 450px auto;
+  }
+  .title {
+	font-size: 25px;	 
+  }
+  .subtitle {
+  	font-size: 14px;
+  }
+  .container {
+  	font-size: 13px;
+  }
+}
+.img-banner {
+	border-radius: 4px;
+	width: 100%;
+}
+.card-white {
+    background: white;
+    border-radius: 4px;
+    padding: 15px 15px;
+    margin: 50px 100px;
+    box-shadow: 0px 10px 30px rgb(59, 109, 157);
+}
+.btn-interview {
+	color: rgb(59, 109, 157);
+	padding: 0px;
+	border-radius: 4px;
+}
+.btn-blue { 
+	background-color: rgb(59, 109, 157);
+	color : white;
+	padding: 5px 5px;
+	border-radius: 4px;
+	width: 15%;
+    height: 15%;
+}
+.btn-blue:hover{ 
+	color: rgb(59, 109, 157);
+	background-color: white;
+	width: 15%;
+    height: 15%;
+ }
+
+/*Custom design with id*/
+ #emoji { 
+	font-size: 30px;
+}
+
